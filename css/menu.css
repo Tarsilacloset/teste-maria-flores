@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;}
+
+/* #FC5A73 #FC6A84 , #932430 #CB1D27 , #2F9EA9 */
+body{
+    background-image: linear-gradient(to top, #fc5a72, #FC6A84);
+    text-align: center;
+    padding: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+h1{ font-family: 'Kaushan Script', cursive; 
+color: white;
+text-shadow: 1px 1px 3px black; 
+}
+
+
+main{ background-color: white;
+    border-radius: 40px;
+    padding: 5px;
+    margin-bottom: 15px;
+    box-shadow: 10px 10px 10px #932430;
+}
+
+.p-header{ width: 270px;
+    text-align: center;
+    margin: 0 auto 8px auto;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.p-main{ 
+    color: #61181f;  
+}
+
+ul > li{
+    text-align: center;
+    background-color: #932430;
+    margin: 2px;
+    width: 150px;
+    border-radius: 20px;
+    padding: 2px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px black;
+}
+li>a{
+    color: white;
+    text-decoration: none;
+}
+ul>li:hover{
+    background-color: yellow;
+
+}
+li>a:hover{ color:black}
+
+footer{
+    background-image: linear-gradient(to top,#013330,#035e58,  #00523a );
+    color: white;
+    height: 100px;
+}
+
+.texto-roda-pe{ text-align: left; 
+
+}
+.texto-roda-pe >a{ 
+    text-decoration: underline ;
+    color: #bf9365;
+    font-weight: bold;
+}
+footer div {
+    display: flex;
+    align-items: center; /* centraliza verticalmente */
+    justify-content: center; /* opcional: centraliza tudo no meio */
+    gap: 15px; /* espaço entre imagem e texto */
+}
+
+footer img {
+    width: 80px; /* tamanho da logo */
+    height: auto;
+}
+
+.texto-roda-pe {
+    margin: 0; /* remove margens do parágrafo */}
